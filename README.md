@@ -4,10 +4,18 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/aryan98765-osa/ag-host-hvm-panel.git
-   cd ag-host-hvm-panel
+  git clone https://github.com/aryan98765-osa/ag-host-hvm-panel.git
+  cd ag-host-hvm-panel
    ```
-2. Install the required dependencies:
+   
+2Install Dependencies (Optional - if not using Docker)
+```cd backend
+go mod download
+go build -o hvm-panel
+cd .. 
+```
+
+3. Install the required dependencies:
    ```bash
    npm install
    ```

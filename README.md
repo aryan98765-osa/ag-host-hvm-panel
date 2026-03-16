@@ -3,7 +3,7 @@
 ## Installation
 
 1. Clone the repository:
-   ```bash
+```bash
   git clone https://github.com/aryan98765-osa/ag-host-hvm-panel.git
   cd ag-host-hvm-panel
    ```
